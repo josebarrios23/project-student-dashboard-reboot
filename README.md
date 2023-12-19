@@ -1,16 +1,6 @@
 # Student Dashboard Project
 
-For this assignment, you will build a student dashboard that will make use of already existing data stored in a JSON file. Users will be able to view students in several ways as well as add comments to those students.
-
-## Project scoring
-
-This project has three different parts on which you will be graded. Each part is weighted differently.
-
-- 70% of the project is scored on **completion**.
-- 20% of the project is scored through the **mastery rubric**.
-- 10% of the project is scored through **stretch goals**.
-
-In total, you must receive at least 70% to complete this project. For example, you could attain 55% of points through the completion requirements, 10% of points through the mastery rubric, and 5% of points through the stretch goals.
+For this exercise, you will build a student dashboard that will make use of already existing data stored in a JSON file. Users will be able to view students in several ways as well as add comments to those students.
 
 ### Completion
 
@@ -18,7 +8,7 @@ To complete this project, you will need to build a React application that meets 
 
 #### Overall requirements
 
-1. The front-end application should be successfully deployed to the web.
+1. The front-end application should be successfully deployed to the web using Netlify.
 1. Your front-end repository should have a `readme.md` file with setup instructions for your application. It should also include a link to your deployed application.
 
 #### Front-end feature requirements
@@ -50,12 +40,6 @@ To complete the front-end application, you will need to build a React applicatio
 1. **Human-readable cohort names.** The list of cohorts should be human-readable (e.g. "Winter 2026" instead of "Winter2026") and ordered by time.
 1. **Clickable cohorts.** When one of the cohorts is clicked from the cohort list, the students shown on the page should change so that only those students in the cohort are shown.
 1. **Cohort title change.** When one of the cohorts is clicked from the cohort list, a heading on the page should change to display what cohort is being shown. The student count should update to reflect this change.
-
-### Mastery rubric
-
-This section of the project is designed to measure your increasing skill at writing good code and following best practices.
-
-To view components of the mastery rubric, view the appropriate assignment on Canvas.
 
 ### Stretch goals
 
