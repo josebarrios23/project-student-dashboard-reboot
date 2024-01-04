@@ -14,7 +14,7 @@ The instructors in your school need a dashboard in order to track the data of ea
 
 ### Overall Requirements
 
-1. **Documentation**: Include `readme.md` with setup instructions for front and back ends of your application. In order to create your readme...
+**Documentation**: Include `readme.md` with setup instructions for front and back ends of your application. In order to create your readme...
    - create a file called `instructions.md`
    - copy and paste these project instructions into that file
    - create your instructions in the actual `readme.md` file
