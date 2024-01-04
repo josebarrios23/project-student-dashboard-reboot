@@ -1,5 +1,7 @@
 # React Student Dashboard Reboot Project Prep 
 
+<img src="./instruction-assets/group-plan.png" alt="group" width="400" height="400">
+
 Welcome to the Student Dashboard Reboot! We're excited to see you dive into your first Pursuit project as a group.
  
 Teamwork is vital to any successful developer and this assignment is meant to ensure you're ready to collaborate effectively and make the most of this experience.  
