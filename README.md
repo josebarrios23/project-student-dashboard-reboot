@@ -12,7 +12,7 @@ The instructors in your school need a dashboard in order to track the data of ea
 
 ## Completion Requirements
 
-### Documentation**
+### Documentation
 
 Include `readme.md` with setup instructions for front and back ends of your application. In order to create your readme...
    - create a file called `instructions.md`
