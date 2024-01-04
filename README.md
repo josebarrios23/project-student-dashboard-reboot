@@ -117,7 +117,7 @@ This project includes some existing code that will help you complete the feature
 - [`Data Shape`](./dataView.md): This file contains the shape of each object. The data you will be working with is an array of objects. Your data will consist of as many as 90 students. Some important key's include:
   - `id`: A unique ID associated with each student.
   - `profilePhoto`: A randomly generated photo from [Random users](https://xsgames.co/randomusers/).
-  - `cohort`: An object represents which "cohort" the student is in.
+  - `cohort`: An object represents which "cohort" the student is in. It includes the `cohortCode`, `cohortStartDates` and `cohortScores` which you will need to work with.
   - `notes`: This is an array of note objects holding a commenter's name and their comment. Keys are `comment` and `commenter`
 ## Advice
 
