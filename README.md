@@ -1,6 +1,6 @@
 # Student Dashboard Project
 
-The instructors in your school need a dashboard in order to track the data of each student from their many cohorts.
+The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by choice.
 
 For this project, you will work with one or more other developers to create a product that makes use of the
 - [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server) API. This server will serve locally as your backend. 
