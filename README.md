@@ -24,7 +24,7 @@ The instructors in your school need a dashboard in order to track the data of ea
 
 ## Day 1 Deliverables
 Read these instructions carefully independently and as a group. Also, 
-take time to read the [Project Prep](./project-prep.md) Document where you will establish group norms as well as view other expectations and requirements
+take time to read the [Planning Requirements](./project-prep.md) Document where you will establish group norms as well as view other expectations and requirements
 
 ### Planning Documents
 Planning documents for this project are due by ***End of Day on the First Day of the Project*** 
