@@ -121,14 +121,15 @@ This project includes some existing code that will help you complete the feature
 
 ## Advice
 
-When building a project, there are additional skills to be gained alongside the tech you are learning. In this project, your ability to do the following will be tested:
+When building a project, there are additional skills to be gained alongside the tech you are learning. In this project, your ability to do the following will be observed:
+How you:
 
-- To plan out your approach with your team before coding
-- To break large features into small, testable tasks that you can build
-- To synthesize multiple skills you've learned at once
-- To learn new skills and syntax on your own
-- To manage your time and stay focused on the important tasks
-- To check in consistantly with your time to make sure you are building the same application together
+- plan out your approach with your team before coding
+- break large features into small, testable tasks that you can build
+- synthesize multiple skills you've learned at once
+- learn new skills and syntax on your own
+- manage your time and stay focused on the important tasks
+- check in consistantly with your time to make sure you are building the same application together
 - To ask for help
 
 **Without a good strategy, programming can be very difficult**
@@ -136,6 +137,11 @@ When building a project, there are additional skills to be gained alongside the 
 ### Suggested process
 
 ## PROCESS
+
+**STUDY THE DATA CAREFULLY!!!**
+
+You will have to maneuver and massage this data. You cannot simply just render the valuse 'as-is'
+
 
 Use all of the tools you have been given to create a plan of action for your team. Trello, Github, Ideation Board, etc.
 
