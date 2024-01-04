@@ -1,4 +1,4 @@
-# Student Dashboard Project
+# React Student Dashboard Reboot Project
 
 <img src="./instruction-assets/computer.png" alt="computer" width="400" height="400">
 
