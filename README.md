@@ -73,7 +73,9 @@ A User can click on a student card and they will be routed to a detailed view of
    - Instead of showing "true" or "false" for certifications, show an emoji or icon depending on the certification status.
 
 ### PART 4 1-on-1 NOTES
-   **1-on-1 section.** Create a section on the single student details view that contains information about a student's 1-on-1 with an instructor. To complete this feature, the following should be true:
+   **1-on-1 section.** 
+   
+   Create a section on the single student details view that contains information about a student's 1-on-1 with an instructor. To complete this feature, the following should be true:
    - The section should include a title. (e.g. "1-on-1 Notes".)
    - The section should include a form :
       - input for instructor's name
