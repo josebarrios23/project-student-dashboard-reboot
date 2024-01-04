@@ -21,17 +21,15 @@ To complete this project, you will need to build a React application that meets 
 
 1. Your front-end repository should have a `readme.md` file with setup instructions for both the front and back ends of the application.
 
-#### Front-end feature specifications
+### Front-end Feature Specifications
 
-To complete the front-end application, you will need to build a React application that demonstrates the following features.
-
-### Part 1 STATIC
+#### Part 1: Static
 
 1. A Header should show the title of Student Dashboard in an `h1` tag.
 
 1. An `About` link should be on the application. This will lead you to a view that displays each team member's name, Github, and a fun fact
 
-### Part 2 INDEX
+#### Part 2: Index
 
 1. A **Student list count** should be included either in the `Aside` or the `Main` portion of the application. It displays the number of students in the displayed cohort
 
@@ -51,7 +49,7 @@ To complete the front-end application, you will need to build a React applicatio
       1.  The student has a mock interview certification (e.g. `certifications.mockInterview` is `true`).
       1.  The student has a current CodeWars score that is over 600.
 
-### Part 3 SHOW
+#### Part 3: Show
 
 **Additional Student Details Section** 
 
@@ -74,9 +72,7 @@ A User can click on a student card and they will be routed to a detailed view of
    - Includes whether or not the student has received certain certifications. 
    - Instead of showing "true" or "false" for certifications, show an emoji or icon depending on the certification status.
 
-### PART 4 1-on-1 NOTES
-   **1-on-1 section** 
-   
+#### PART 4: 1-on-1 Notes Section 
    Create a section on the single student details view that contains information about a student's 1-on-1 with an instructor. To complete this feature, the following should be true:
    - The section should include a title. (e.g. "1-on-1 Notes".)
    - The section should include a form which includes:
@@ -88,14 +84,15 @@ A User can click on a student card and they will be routed to a detailed view of
    - On submit, the inputs are cleared.
    - The section should show a list of all notes that have been added.
    - The notes can be saved locally in the component as opposed to the backend.
-### PART 5 ASIDE LIST
+
+#### PART 5: Aside List of Cohorts
 1. The `Aside` List should continuously be shown in the page view
 1. **Unique list of cohorts.** The Aside should include a unique list of cohorts on the page. This list of cohorts should be human-readable (e.g. "Winter 2026" instead of "Winter2026") and ordered by both year and season combined.
 1. **Clickable cohorts.** When one of the cohorts is clicked from the cohort list, the students shown on the page should change so that only those students in the cohort are displayed.
 1. **Cohort title change.** When one of the cohorts is clicked from the cohort list, a heading on the page should change to display what cohort is being shown. (i.e. 'All Students' title should change to 'Winter 2025' title when that title is clicked)
 1. The **Student list count** should also update to reflect the number of students in the chosen cohort.
 
-### PART 6 STRETCH GOALS
+#### PART 6: Stretch Goals
 
 This section of the project measures your group's ability to go above and beyond in creating your project. To score points in this section, you should incorporate a feature, technology, or skill not explicitly required by the project instructions.
 
