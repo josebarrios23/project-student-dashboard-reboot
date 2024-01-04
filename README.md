@@ -40,7 +40,7 @@ To complete the front-end application, you will need to build a React applicatio
    - username
    - email address, 
    user readable birthday, showing month name, day, year, (e.g. November 7, 2022), and profile photo.
-   - **On-track status.** Each student should also be marked as either "On Track" or "Off Track." A student is "On Track" if all of the following is true about them:
+   - **On-track status.** Each student should also be marked as either "On Track" or "Off Track." A student is "On Track" if **ALL** of the following is true about them:
       1.  The student has a resume certification (e.g. `certifications.resume` is `true`).
       1.  The student has a LinkedIn certification (e.g. `certifications.linkedin` is `true`).
       1.  The student has a GitHub certification (e.g. `certifications.github` is `true`).
