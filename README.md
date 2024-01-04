@@ -156,19 +156,26 @@ The following is an example of the application. These images show the applicatio
 
 ### Cohort list by Season and Year
 
+#### Summer 2025
 ![summer interactive cohort list](./instruction-assets/index-chosen-by-summer.png)
 
+#### Winter 2025
 ![winter interactive cohort list](./instruction-assets/index-chosen-by-winter.png)
 
 
 ### Student Details Show Section
 
+#### Student Details
 ![student details](./instruction-assets/show.png)
 
+
+#### Student Details with Notes
 ![show details with comments](./instruction-assets/show-with-comments.png)
 
 ### Cohort Lists
 
+#### Sorted Ascending
 ![sorted ascending](./instruction-assets/list-sorted-ascending.png)
 
+#### Sorted Descending
 ![sorted descending](./instruction-assets/list-sorted-descending.png)
