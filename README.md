@@ -2,7 +2,14 @@
 
 The instructors in your school need a dashboard in order to track the data of each student from their many cohorts.
 
-For this project, you will work with one or more other developers to create a product that makes use of the [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server) API. Your group will collaboratively build a dashboard based on specifications given below, plus add any additional features chosen by your group 
+For this project, you will work with one or more other developers to create a product that makes use of the
+- [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server) API. This server will serve locally as your backend. 
+- `fork` and `clone` this repo to act as your frontend.
+- create an `Instructions.md` file in the root folder.
+- copy these instructions in the `README.md` into the `Instructions.md` file.
+- place the instructions for Your Group's specific application in the `README.md` file.
+
+Your group will collaboratively build a dashboard based on specifications given below, plus add any additional features chosen by your group 
 
 ### Completion
 
