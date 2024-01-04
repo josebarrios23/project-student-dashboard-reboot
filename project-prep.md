@@ -62,5 +62,9 @@ Each team will have a daily, scheduled stand-up with one of the coaches.  During
 
 Each team member is repsonsible for reviewing **ALL MEMBERS OF THEIR TEAM AND THEMSELVES** 
 
+## Advice and Suggested Process
 
-
+- **Strategy**: Plan with team, divide tasks, learn new skills, manage time, communicate consistently.
+- **Data Handling**: Study and manipulate data carefully.
+- **Development Approach**: Use planning tools, build features iteratively, commit often.
+- **Fail Forward**: Bring your A game to your group. Time spent in doubt is time wasted. You each have something to contribute and bring to the table. Bring it!
