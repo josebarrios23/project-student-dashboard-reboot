@@ -146,26 +146,22 @@ Use all of the tools you have been given to create a plan of action for your tea
 
 Continue to slowly iterate, making small changes to complete each feature. Commit often, so that you can always undo your changes if you break something big.
 
-## Example
+## Visual Examples
 
-The following is an example of the application. These images show the application completed at different stages of the project and highlights different parts of the project to make it clear what is being discussed.
+The following is an example of the application. These images show the application completed at different stages of the project and highlights different parts of the project to make it clear what is being discussed. While proper CSS is expected, you are not required to replicate this layout and look. 
 
 ### Landing page
 
-![landing page](./instruction-assets/index.png)
+![landing page - All Students](./instruction-assets/index.png)
 
-### Cohort list
-
-![cohort list](./instruction-assets/cohort-list.png)
-
-### Cohort list on click
+### Cohort list by Season and Year
 
 ![summer interactive cohort list](./instruction-assets/index-chosen-by-summer.png)
 
 ![winter interactive cohort list](./instruction-assets/index-chosen-by-winter.png)
 
 
-### Student details section
+### Student Details Show Section
 
 ![student details](./instruction-assets/show.png)
 
