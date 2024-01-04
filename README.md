@@ -16,7 +16,7 @@ These include:
    - Wireframes
    - Github Repo Address
         
-Submit relevant links to JD & Dan in one thread in Slack
+**Submit relevant links to JD & Dan in one `Slack` thread**
 
 ## Project Setup
 
