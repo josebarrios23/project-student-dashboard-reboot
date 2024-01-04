@@ -31,7 +31,7 @@ To complete the front-end application, you will need to build a React applicatio
 
 ### Part 2 INDEX
 
-1. A **Student list count** should be included either in the `Aside`` or the `Main`` portion of the application. It displays the number of students in the displayed cohort
+1. A **Student list count** should be included either in the `Aside` or the `Main` portion of the application. It displays the number of students in the displayed cohort
 
 1. It is optional how you choose to layout your app, but your page should always show a `Header`, an `Aside` that will display a list of seasonal dates, and a `Main` section.
 
