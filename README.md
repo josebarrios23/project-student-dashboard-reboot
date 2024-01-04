@@ -36,9 +36,9 @@ To complete the front-end application, you will need to build a React applicatio
 1. It is optional how you choose to layout your app, but your page should always show a `Header`, an `Aside` that will display a list of seasonal dates, and a `Main` section.
 
 1. **Student list.** The `Home` page should show a list of all students. Each student should be shown with the following details listed:
-   - name (each first letter should be upper case), 
-   - username
-   - email address, 
+   - Full Name. Each first letter of the name should be uppercase.
+   - Username
+   - Email address, 
    user readable birthday, showing month name, day, year, (e.g. November 7, 2022), and profile photo.
    - **On-track status.** Each student should also be marked as either "On Track" or "Off Track." A student is "On Track" if **ALL** of the following is true about them:
       1.  The student has a resume certification (e.g. `certifications.resume` is `true`).
