@@ -4,6 +4,20 @@
 
 The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by Season and Year. You will work with one or more colleagues to create an SPA (Single Page Application) using ReactJS
 
+## Day 1 Deliverables
+Read these instructions carefully independently and as a group. Also, 
+take time to read the [Project Prep](./project-prep.md) Document where you will establish group norms as well as view other expectations and requirements
+
+### Planning Documents
+Planning documents for this project are due by ***End of Day on the First Day of the Project*** 
+
+These include:
+   - Trello Board
+   - Wireframes
+   - Github Repo Address
+        
+Submit relevant links to JD & Dan in one thread in Slack
+
 ## Project Setup
 
 - **Backend API**: Use [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server).
