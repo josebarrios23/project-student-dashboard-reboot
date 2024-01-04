@@ -88,7 +88,7 @@ A User can click on a student card and they will be routed to a detailed view of
    - The notes can be saved locally in the component as opposed to the backend.
 
 #### PART 5: Aside List of Cohorts
-1. The `Aside` List should continuously be shown in the page view
+1. The **Aside List** should continuously be shown in the page view
 1. **Unique list of cohorts.** The Aside should include a unique list of cohorts on the page. This list of cohorts should be human-readable (e.g. "Winter 2026" instead of "Winter2026") and ordered by both year and season combined.
 1. **Clickable cohorts.** When one of the cohorts is clicked from the cohort list, the students shown on the page should change so that only those students in the cohort are displayed.
 1. **Cohort title change.** When one of the cohorts is clicked from the cohort list, a heading on the page should change to display what cohort is being shown. (i.e. 'All Students' title should change to 'Winter 2025' title when that title is clicked)
