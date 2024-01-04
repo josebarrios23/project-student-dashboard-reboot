@@ -51,7 +51,7 @@ These include:
     - Wireframes
     - Github Repo Address
         
-Submit relevant links to JD & Dan in one Slack thread.
+**Submit relevant links to JD & Dan in one Slack thread.**
 
 ### Stand Up 
 Each team will have a daily, scheduled stand-up with one of the coaches.  During this stand up each teammember must describe:
