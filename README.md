@@ -94,6 +94,7 @@ A User can click on a student card and they will be routed to a detailed view of
 1. **Cohort title change.** When one of the cohorts is clicked from the cohort list, a heading on the page should change to display what cohort is being shown. (i.e. 'All Students' title should change to 'Winter 2025' title when that title is clicked)
 1. The **Student list count** should also update to reflect the number of students in the chosen cohort.
 
+
 #### PART 6: Stretch Goals
 
 This section of the project measures your group's ability to go above and beyond in creating your project. To score points in this section, you should incorporate a feature, technology, or skill not explicitly required by the project instructions.
@@ -103,6 +104,7 @@ When you submit your pull request, _make sure to include a description of any st
 - Create a button in the single student details view where you can `Unenroll` a student ('Delete'). Add functionality to delete that student from your backend server.
 - Create a form that allows you to update a student's details. Make sure all of your calculations coordinate with that update.
 - Use `PUT` to update the notes key in the data when adding a note for the student. In the server data, each note has a `comment` key and a  `commenter` key.
+- Filter students based on a category of your choosing (i.e. "LinkedIn Certification", "Codewars Score" or even harder "On Track Status")
 - Create a search bar to search for students based on your chosen criteria.
 - Include a count for the number of notes added to each student, which is updated when a new note is added.
 - Allow for the user to click a button and the view of students changes to be just a list of names, or just a grid of profile images.
