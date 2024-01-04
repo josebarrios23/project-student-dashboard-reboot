@@ -85,8 +85,7 @@ A User can click on a student card and they will be routed to a detailed view of
    -  The form can be filled out and submitted. 
    - On submit, the inputs are cleared.
    - The section should show a list of all notes that have been added.
-   - While the notes will not persist if the page is loaded, the new notes _should_ be found if you interact with a new cohort (i.e. Winter 2025 cohort) in the cohort list and then find the student.
-
+   - The notes can be saved locally in the component as opposed to the backend.
 ### PART 5 ASIDE LIST
 1. The `Aside` List should continuously be shown in the page view
 1. **Unique list of cohorts.** The Aside should include a unique list of cohorts on the page. This list of cohorts should be human-readable (e.g. "Winter 2026" instead of "Winter2026") and ordered by both year and season combined.
