@@ -49,7 +49,7 @@ Include `readme.md` with setup instructions for front and back ends of your appl
       1.  The student has a LinkedIn certification (e.g. `certifications.linkedin` is `true`).
       1.  The student has a GitHub certification (e.g. `certifications.github` is `true`).
       1.  The student has a mock interview certification (e.g. `certifications.mockInterview` is `true`).
-      1.  The student has a current CodeWars score that is over 600.
+      1.  The student has a current CodeWars score that is over 850.
 
 #### Part 3: Show
 
