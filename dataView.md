@@ -1,7 +1,10 @@
 # STUDENT DATA OBJECT VIEW
 
 This is a view of the shape of the data object for a single student.
-The actual data is an array of these objects. Every object will have this shape: 
+
+The actual data is an array of these objects. 
+
+Every object will have this shape: 
 
 ```md
 {
