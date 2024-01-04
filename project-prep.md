@@ -44,12 +44,14 @@ Keep in mind it is the expectation that every team member contribute a Pull Requ
 ## Deliverables
 
 ### Planning Documents
-Planning documents for this project are due by ***End of Day 1/16*** 
-    These include:
-        - Trello Board
-        - Wireframes
+Planning documents for this project are due by ***End of Day on First Day of Project*** 
+    
+These include:
+    - Trello Board
+    - Wireframes
+    - Github Repo Address
         
-Submit relevant links to JD & Dan in one thread in Slack
+Submit relevant links to JD & Dan in one Slack thread.
 
 ### Stand Up 
 Each team will have a daily, scheduled stand-up with one of the coaches.  During this stand up each teammember must describe:
