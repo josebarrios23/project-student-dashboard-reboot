@@ -2,7 +2,7 @@
 
 <img src="./instruction-assets/computer.png" alt="computer" width="400" height="400">
 
-The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by Season and Year. You will work with one or more colleagues to complete this task.  
+The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by Season and Year. You will work with one or more colleagues to create an SPA (Single Page Application) using ReactJS
 
 ## Project Setup
 
