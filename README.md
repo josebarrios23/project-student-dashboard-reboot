@@ -29,7 +29,7 @@ Include `readme.md` with setup instructions for front and back ends of your appl
 
 1. A Header should show the title of Student Dashboard in an `h1` tag.
 
-1. An `About` link should be on the application. This will lead you to a view that displays each team member's name, Github, and a fun fact
+1. An `About` link should be on the application. This link will lead the user to a view that displays, at minumum, each team member's name, Github, and a fun fact
 
 #### Part 2: Index
 
