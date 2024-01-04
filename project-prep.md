@@ -6,7 +6,7 @@ Teamwork is vital to any successful developer and this assignment is meant to en
 
 Keep in mind that group work is not working together as a group on one feature.  Group work means delegating responsibility between team members and meating agreed upon deadlines.  
 
-## Assignment Requirements
+## Planning Requirements
 
 Your prep assignment submission should include the following components.  Remember, this work can and should be split amongst team members:
 
