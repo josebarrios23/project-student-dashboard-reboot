@@ -4,6 +4,22 @@
 
 The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by Season and Year. You will work with one or more colleagues to create an SPA (Single Page Application) using ReactJS
 
+## Project Tools & Skills:
+- React Hooks
+- React Router 6.2.1
+- Forms
+- Controlled Inputs
+- Event Handlers
+- Fetch API
+- Promises
+- Data Manipulation & Parsing
+- Helper Functions
+- HTML, CSS, JS
+- Bootstrap (optional)
+- CSS Grid (optional)
+- Flexbox (optional)
+
+
 **NOTE:** Since this project will have a front and backend local server, it will not be deployed. The code for this project will reside in a repo created by a team member. The others will fork both front and back end repos for ability to run the complete application.
 
 ## Day 1 Deliverables
@@ -26,10 +42,6 @@ Planning Documents and Deliverables include:
 
 - **Backend API**: Use [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server).
 - **Frontend Repository**: Your team lead or someone on your team should`Fork` and `clone` this repo. 
-
-## Process
-
-To read about group process, advice etc. go to the [Proucess Page](./process.md)
 
 ## Completion Requirements
 
