@@ -69,7 +69,8 @@ A User can click on a student card and they will be routed to a detailed view of
       - A user can see properly formatted percentages for assignments
 
    1. **Certifications Heading**
-   - Includes whether or not the student has received certain certifications. Instead of showing "true" or "false" for certifications, show an emoji or icon depending on the certification status.
+   - Includes whether or not the student has received certain certifications. 
+   - Instead of showing "true" or "false" for certifications, show an emoji or icon depending on the certification status.
 
 ### PART 4 1-on-1 NOTES
    **1-on-1 section.** Create a section on the single student details view that contains information about a student's 1-on-1 with an instructor. To complete this feature, the following should be true:
