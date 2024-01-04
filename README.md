@@ -35,7 +35,7 @@ Include `readme.md` with setup instructions for front and back ends of your appl
 
 1. A **Student list count** should be included either in the `Aside` or the `Main` portion of the application. It displays the number of students in the displayed cohort
 
-1. It is optional how you choose to layout your app, but your page should always show a `Header`, an `Aside` that will display a list of seasonal dates, and a `Main` section.
+1. Your SPA should always show a `Header` with title, an `Aside` that will display a list of seasonal cohorts, and a `Main` section where student data is displayed.
 
 1. **Student list.** The `Home` page should show a list of all students. Each student should be shown with the following details listed:
    - Full Name:
