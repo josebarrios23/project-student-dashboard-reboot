@@ -118,7 +118,7 @@ This project includes some existing code that will help you complete the feature
   - `id`: A unique ID associated with each student.
   - `profilePhoto`: A randomly generated photo from [Random users](https://xsgames.co/randomusers/).
   - `cohort`: An object represents which "cohort" the student is in.
-
+  - `notes`: This is an array of note objects holding a commenter's name and their comment. Keys are `comment` and `commenter`
 ## Advice
 
 When building a project, there are additional skills to be gained alongside the tech you are learning. In this project, your ability to do the following will be observed:
