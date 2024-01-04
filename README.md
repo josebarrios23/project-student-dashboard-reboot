@@ -51,7 +51,9 @@ To complete the front-end application, you will need to build a React applicatio
 
 ### Part 3 SHOW
 
-**Additional Student Details Section.** A User can click on a student card and they will be routed to a detailed view of the single student. This feature should include the following detailed information which you will pull and manipulate from the data:
+**Additional Student Details Section.** 
+
+A User can click on a student card and they will be routed to a detailed view of the single student. This feature should include the following detailed information which you will pull and manipulate from the data:
 
    1. A user still sees all of the original information that was displayed in the Index Card for the student. Details listed above.
    
