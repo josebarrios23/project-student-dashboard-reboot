@@ -2,24 +2,22 @@
 
 <img src="./instruction-assets/computer2.png" alt="computer" width="400" height="400">
 
-The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by choice.
+The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by Season and Year. You will work with one or more colleagues to complete this task.  
 
-For this project, you will work with one or more other developers to create a product that makes use of the
-- [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server) API. This server will serve locally as your backend. 
-- `fork` and `clone` this `project-student-dashboard-reboot` repo to act as your frontend.
-- create an `Instructions.md` file in the root folder.
-- copy these instructions in the `README.md` into the `Instructions.md` file.
-- place the instructions for Your Group's specific application in the `README.md` file.
+## Project Setup
 
-Your group will collaboratively build a dashboard based on specifications given below, plus add any additional features chosen by your group 
+- **Backend API**: Use [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server).
+- **Frontend Repository**: Your team lead or someone on your team should`Fork` and `clone` this repo. 
 
-### Completion
 
-To complete this project, you will need to build a React application that meets the following specifications.
+## Completion Requirements
 
-#### Overall requirements
+### Overall Requirements
 
-1. Your front-end repository should have a `readme.md` file with setup instructions for both the front and back ends of the application.
+1. **Documentation**: Include `readme.md` with setup instructions for front and back ends of your application. In order to create your readme...
+   - create a file called `instructions.md`
+   - copy and paste these project instructions into that file
+   - create your instructions in the actual `readme.md` file
 
 ### Front-end Feature Specifications
 
