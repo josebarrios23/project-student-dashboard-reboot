@@ -37,7 +37,7 @@ To complete the front-end application, you will need to build a React applicatio
 
 1. **Student list.** The `Home` page should show a list of all students. Each student should be shown with the following details listed:
    - Full Name:
-      - Each first letter of the name should be uppercase.
+      - Each first letter of the student's name should be uppercase.
       - All of the following letters in the name should be lowercase.
    - Username
    - Email address, 
