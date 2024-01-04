@@ -12,6 +12,8 @@ The instructors in your school need a dashboard in order to track the data of ea
 
 ## Completion Requirements
 
+There are 6 parts to this project. Complete as many parts as you can in the given order. Points will be based on completion, code quality, appearance and team work dynamic. Each person must contribute to the planning and codebase for the app.
+
 ### Documentation
 
 Include `readme.md` with setup instructions for front and back ends of your application. In order to create your readme...
