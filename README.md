@@ -156,10 +156,10 @@ The following is an example of the application. These images show the applicatio
 
 ### Cohort list by Season and Year
 
-#### Summer 2025
+#### Summer 2025 Index
 ![summer interactive cohort list](./instruction-assets/index-chosen-by-summer.png)
 
-#### Winter 2025
+#### Winter 2025 Index
 ![winter interactive cohort list](./instruction-assets/index-chosen-by-winter.png)
 
 
