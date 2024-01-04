@@ -4,6 +4,8 @@
 
 The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by Season and Year. You will work with one or more colleagues to create an SPA (Single Page Application) using ReactJS
 
+**NOTE:** Since this project will have a front and backend local server, it will not be deployed. The code for this project will reside in a repo created by a team member. The others will fork both front and back end repos for ability to run the complete application.
+
 ## Day 1 Deliverables
 Read these instructions carefully independently and as a group. Also, 
 take time to read the [Project Prep](./project-prep.md) Document where you will establish group norms as well as view other expectations and requirements
