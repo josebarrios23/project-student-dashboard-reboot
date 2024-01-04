@@ -152,7 +152,7 @@ The following is an example of the application. These images show the applicatio
 
 ### Landing page
 
-![landing page](./instruction-assets/landing.png)
+![landing page](./instruction-assets/index.png)
 
 ### Cohort list
 
@@ -160,18 +160,19 @@ The following is an example of the application. These images show the applicatio
 
 ### Cohort list on click
 
-![interactive cohort list](./instruction-assets/interactive-cohort-list.png)
+![summer interactive cohort list](./instruction-assets/index-chosen-by-summer.png)
 
-### Student list with "On-track"
+![winter interactive cohort list](./instruction-assets/index-chosen-by-winter.png)
 
-![on-track designation](./instruction-assets/improved-student-list.png)
 
 ### Student details section
 
-![closed](./instruction-assets/student-details-closed.png)
+![student details](./instruction-assets/show.png)
 
-![opened](./instruction-assets/student-details-opened.png)
+![show details with comments](./instruction-assets/show-with-comments.png)
 
-### 1-on-1 section
+### Cohort Lists
 
-![one-on-one section](./instruction-assets/one-on-one-section.png)
+![sorted ascending](./instruction-assets/list-sorted-ascending.png)
+
+![sorted descending](./instruction-assets/list-sorted-descending.png)
