@@ -136,13 +136,14 @@ When you submit your pull request, _make sure to include a description of any st
 
 - Create a button in the single student details view where you can `Unenroll` a student (`DELETE`). Add functionality to delete that student from your backend server.
 - Create a form that allows you to update a student's details. Make sure all of your calculations coordinate with that update. (`PUT`)
-- Use `PATCH` to update the notes key in the data when adding a note for the student. In the server data, each note has a `comment` key and a  `commenter` key. (super challenging, self research)
 - Filter students based on a category of your choosing (i.e. "LinkedIn Certification", "Codewars Score" or even harder "On Track Status")
 - Create search functionality to search for students based on first or last name.
 - Include a count for the number of notes added to each student, which is updated when a new note is added.
 - Allow for the user to click a button and the view of students changes to be just a list of names, or just a grid of profile images.
 - Implement a "dark mode" version of the website, which changes the CSS on click.
 - Add color-coding or segmentation to the cohort list, so that each year is visually distinct from one another.
+- *(challenging)* Use `PATCH` to update the username, name, cohort or date of birth.
+- *(very challenging)* Use `PATCH` to update the notes key in the data when adding a note for the student. In the server data, each note has a `comment` key and a  `commenter` key. (super challenging, self research)
 
 Points will be allocated in this section at the discretion of the instructor.
 
