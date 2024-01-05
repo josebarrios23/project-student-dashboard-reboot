@@ -38,6 +38,12 @@ Planning Documents and Deliverables include:
         
 **Submit relevant links to JD & Dan in one `Slack` thread**
 
+## Deployment
+
+   - You will deploy your front end application to Netlify.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/netlify-deployment.md)
+
+   - You will deploy your backend server to Render.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/render-deployment.md)
+
 ## Project Setup
 
 - **Backend API**: Use [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server).
