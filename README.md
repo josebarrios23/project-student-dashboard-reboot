@@ -18,6 +18,9 @@ The instructors in your school need a dashboard in order to track the data of ea
 - Bootstrap (optional)
 - CSS Grid (optional)
 - Flexbox (optional)
+- Render.com backend deployment
+- Netlfiy.com frontend deployment
+- Self learning
 
 
 **NOTE:** Since this project will have a front and backend local server, it will not be deployed. The code for this project will reside in a repo created by a team member. The others will fork both front and back end repos for ability to run the complete application.
