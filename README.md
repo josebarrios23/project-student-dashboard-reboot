@@ -118,7 +118,7 @@ A User can click on a student card and they will be routed to a detailed view of
    -  The form can be filled out and submitted. 
    - On submit, the inputs are cleared.
    - The section should show a list of all notes that have been added.
-   - The notes can be saved locally in the component as opposed to the backend.
+   - The notes can be saved locally in the component and do not need to persist when refreshing the application.
 
 #### PART 5: Aside View - List of Cohorts
 1. The **Aside List** should continuously be shown in the page view
@@ -141,6 +141,7 @@ When you submit your pull request, _make sure to include a description of any st
 - Allow for the user to click a button and the view of students changes to be just a list of names, or just a grid of profile images.
 - Implement a "dark mode" version of the website, which changes the CSS on click.
 - Add color-coding or segmentation to the cohort list, so that each year is visually distinct from one another.
+- *(medium difficulty)* save notes to localStorage and have them persist on refresh.
 - *(challenging)* Create a form that allows you to update a student's details. Use `PATCH` to update the username, name, cohort or date of birth.
 - *(very challenging)* Use `PATCH` to update the notes key in the data when adding a note for the student. In the server data, each note has a `comment` key and a  `commenter` key. (super challenging, self research)
 
