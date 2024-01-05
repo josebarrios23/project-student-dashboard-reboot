@@ -67,7 +67,7 @@ Include `readme.md` with setup instructions for front and back ends of your appl
 
 ### ReactJS View & Feature Specifications
 
-You can reference the [Visual Examples](#view)of each view below to get an idea of what is required.
+You can reference the [Visual Examples](#view) for each view below to get an idea of what is required.
 
 #### Part 1: Static Views
 
@@ -159,8 +159,9 @@ When you submit your pull request, _make sure to include a description of any st
 
 Points will be allocated in this section at the discretion of the instructor.
 
+GOOD LUCK!
 
-## <a name="view">Visual Examples</a> 
+### <a name="view">Visual Examples</a> 
 
 The following is an example of the application. These images show the application completed at different stages of the project and highlights different parts of the project to make it clear what is being discussed. While proper CSS is expected, you are not required to replicate this layout and look. 
 
