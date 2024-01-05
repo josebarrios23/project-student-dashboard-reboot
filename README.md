@@ -38,12 +38,6 @@ Planning Documents and Deliverables include:
         
 **Submit relevant links to JD & Dan in one `Slack` thread**
 
-## Deployment
-
-   - You will deploy your front end application to Netlify.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/netlify-deployment.md)
-
-   - You will deploy your backend server to Render.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/render-deployment.md)
-
 ## Project Setup
 
 - **Backend API**: Use [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server).
@@ -51,9 +45,18 @@ Planning Documents and Deliverables include:
 
 ## Completion Requirements
 
-There are 6 parts to this project. Complete as many parts as you can in the given order. Points will be based on completion, code quality, appearance and team work dynamic. Each person must contribute to the planning and codebase for the app.
+There are 5 views plus other requirements for this project. For views, complete as many views as you can in the given order. Points will be based on completion, code quality, appearance and team work dynamic. Each person must contribute to the planning and codebase for the app.
+
+## CSS
 
 Responsive CSS is expected. You may use Bootstrap, Grid, and/or Flex to create your layout and design.
+
+## Deployment
+
+   - You will deploy your front end application to Netlify.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/netlify-deployment.md)
+
+   - You will deploy your backend server to Render.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/render-deployment.md)
+
 
 ### Documentation
 
