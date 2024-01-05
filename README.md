@@ -177,11 +177,11 @@ The following is an example of the application. These images show the applicatio
 
 ### Student Details Show Section
 
-#### Student Details
+#### Student Details - Aside view and Header view always be viewable. This is only the Show view
 ![student details](./instruction-assets/show.png)
 
 
-#### Student Details with Notes
+#### Student Details with Notes - Aside view and Header view should always be viewable. This is only the Show view
 ![show details with comments](./instruction-assets/show-with-comments.png)
 
 ### Cohort Lists
