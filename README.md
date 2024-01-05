@@ -58,13 +58,13 @@ Include `readme.md` with setup instructions for front and back ends of your appl
 
 ### Front-end Feature Specifications
 
-#### Part 1: Static
+#### Part 1: Static Views
 
 1. A Header should show the title of Student Dashboard in an `h1` tag.
 
 1. An `About` link should be on the application. This link will lead the user to a view that displays, at minumum, each team member's name, Github, and a fun fact
 
-#### Part 2: Index
+#### Part 2: Index View
 
 1. A **Student list count** should be included either in the `Aside` or the `Main` portion of the application. It displays the number of students in the displayed cohort
 
@@ -84,7 +84,7 @@ Include `readme.md` with setup instructions for front and back ends of your appl
       1.  The student has a mock interview certification (e.g. `certifications.mockInterview` is `true`).
       1.  The student has a current CodeWars score that is over 850.
 
-#### Part 3: Show
+#### Part 3: Show View
 
 **Additional Student Details Section** 
 
@@ -107,7 +107,7 @@ A User can click on a student card and they will be routed to a detailed view of
    - Includes whether or not the student has received certain certifications. 
    - Instead of showing "true" or "false" for certifications, show an emoji or icon depending on the certification status.
 
-#### PART 4: 1-on-1 Notes Section 
+#### PART 4: 1-on-1 Notes Section - Form
    Create a section on the single student details view that contains information about a student's 1-on-1 with an instructor. To complete this feature, the following should be true:
    - The section should include a title. (e.g. "1-on-1 Notes".)
    - The section should include a form which includes:
@@ -120,7 +120,7 @@ A User can click on a student card and they will be routed to a detailed view of
    - The section should show a list of all notes that have been added.
    - The notes can be saved locally in the component as opposed to the backend.
 
-#### PART 5: Aside List of Cohorts
+#### PART 5: Aside View - List of Cohorts
 1. The **Aside List** should continuously be shown in the page view
 1. **Unique list of cohorts.** The Aside should include a unique list of cohorts on the page. This list of cohorts should be human-readable (e.g. "Winter 2026" instead of "Winter2026") and ordered by both year and season combined.
 1. **Clickable cohorts.** When one of the cohorts is clicked from the cohort list, the students shown on the page should change so that only those students in the cohort are displayed.
