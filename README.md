@@ -22,9 +22,6 @@ The instructors in your school need a dashboard in order to track the data of ea
 - Netlfiy.com frontend deployment
 - Self learning
 
-
-**NOTE:** Since this project will have a front and backend local server, it will not be deployed. The code for this project will reside in a repo created by a team member. The others will fork both front and back end repos for ability to run the complete application.
-
 ## Day 1 Deliverables
 Read these instructions carefully independently and as a group. Also, 
 take time to read the [Planning Requirements](./project-prep.md) Document where you will establish group norms as well as view other expectations and requirements
