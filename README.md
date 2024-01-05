@@ -143,6 +143,7 @@ This section of the project measures your group's ability to go above and beyond
 
 When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
+- Create a button and the functionality to sort the Aside View List 'Ascending' & 'Descending'
 - Create a button in the single student details view where you can `Unenroll` a student (`DELETE`). Add functionality to delete that student from your backend server.
 - Filter students based on a category of your choosing (i.e. "LinkedIn Certification", "Codewars Score" or even harder "On Track Status")
 - Create search functionality to search for students based on first or last name.
