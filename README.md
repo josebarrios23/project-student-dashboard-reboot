@@ -45,7 +45,7 @@ Planning Documents and Deliverables include:
 
 ## Completion Requirements
 
-There are 5 views plus other requirements for this project. For views, complete as many views as you can in the given order. Points will be based on completion, code quality, appearance and team work dynamic. Each person must contribute to the planning and codebase for the app.
+There are a minimum of 5 Views for this SPA (Single Page Application), as well as other requirements for this project. For views, complete as many views as you can in the given order. Points will be based on completion, code quality, appearance and team work dynamic. Each person must contribute to the planning and codebase for the app.
 
 ## CSS
 
