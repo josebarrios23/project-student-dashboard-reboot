@@ -161,7 +161,7 @@ Points will be allocated in this section at the discretion of the instructor.
 
 GOOD LUCK!
 
-### <a name="view">Visual Examples</a> 
+## <a name="view">Visual Examples</a> 
 
 The following is an example of the application. These images show the application completed at different stages of the project and highlights different parts of the project to make it clear what is being discussed. While proper CSS is expected, you are not required to replicate this layout and look. 
 
