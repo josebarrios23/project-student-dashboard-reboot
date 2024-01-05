@@ -47,7 +47,7 @@ Planning Documents and Deliverables include:
 ## Project Setup
 
 - **Backend API**: Use [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server).
-- **Frontend Repository**: Your team lead or someone on your team should`Fork` and `clone` this `React Student Dashboard Reboot Project` repo. 
+- **Frontend Repository**: Your team lead or someone on your team should`Fork` and `clone` this *React Student Dashboard Reboot Project* repo. 
 
 ## Completion Requirements
 
