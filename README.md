@@ -65,7 +65,7 @@ Include `readme.md` with setup instructions for front and back ends of your appl
    - copy and paste these project instructions into that file
    - create your instructions in the actual `readme.md` file
 
-### Front-end Feature Specifications
+### ReactJS View & Feature Specifications
 
 #### Part 1: Static Views
 
