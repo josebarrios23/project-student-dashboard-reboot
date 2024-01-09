@@ -137,6 +137,7 @@ A User can click on a student card and they will be routed to a detailed view of
 1. **Clickable cohorts.** When one of the cohorts is clicked from the cohort list, the students shown on the page should change so that only those students in the cohort are displayed.
 1. **Cohort title change.** When one of the cohorts is clicked from the cohort list, a heading on the page should change to display what cohort is being shown. (i.e. 'All Students' title should change to 'Winter 2025' title when that title is clicked)
 1. The **Student list count** should also update to reflect the number of students in the chosen cohort.
+1. Create a button and the functionality to sort the Aside View List 'Ascending' & 'Descending'
 
 
 #### PART 6: Stretch Goals
@@ -145,7 +146,6 @@ This section of the project measures your group's ability to go above and beyond
 
 When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
-- Create a button and the functionality to sort the Aside View List 'Ascending' & 'Descending'
 - Create a button in the single student details view where you can `Unenroll` a student (`DELETE`). Add functionality to delete that student from your backend server.
 - Filter students based on a category of your choosing (i.e. "LinkedIn Certification", "Codewars Score" or even harder "On Track Status")
 - Create search functionality to search for students based on first or last name.
