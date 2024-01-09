@@ -34,6 +34,24 @@ It should include:
 * How we choose to communicate - Slack? Email? Discord?
 * Deliverables - what is each team member responsible for delivering?
 
+Use the list below to consider while compiling a document of group norms for your group:
+
+1. Everyone thinks of the worst team they have been on (work, volunteer, sports team, school project).
+1. Everyone takes a moment to jot some notes about why that experience was so terrible.
+1. Ask everyone to share.
+1. Everyone now thinks of the best team experience.
+1. Everyone takes a moment to jot some notes about why that experience was so great.
+1. Ask everyone to share.
+1. Now ask what things make a good work experience versus a bad one.
+1. Someone should volunteer to be a note taker - the note taker should open a google doc (or similar) and screen share so that everyone can see the list and be thoughtful about adding to it or adjusting it.
+1. Ask team members to suggest behaviors and norms that would contribute to the team's success.
+1. Discuss which ones can the team support and adhere to.
+1. Flag any concerns or challenges (see below).
+1. Discuss how to deal with a team member who does not follow norms (see below).
+1. Someone else should volunteer to take the list and create a `must do` list - this list should be shared with your whole team and your instructor.
+
+These are the norms your teams should now follow for the project.
+
 Read and discuss [Group Norms and Teamwork](https://github.com/10-3-pursuit/unit-react/tree/main/group-norms-and-teamwork)
 
 Make a list of what your team norms will be.
