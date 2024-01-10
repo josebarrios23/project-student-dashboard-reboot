@@ -23,7 +23,7 @@ The instructors in your school need a dashboard in order to track the data of ea
 - Self learning
 
 ## Group Dynamic
-Together you should refer to [Group Norms & Teamwork](https://github.com/10-3-pursuit/unit-react/tree/main/group-norms-and-teamwork) and [Working In Groups](https://github.com/10-3-pursuit/unit-react/blob/main/group-norms-and-teamwork/working-in-groups.md) and make a list that establishes your group dynamic.
+As a group you should reference [Group Norms & Teamwork](https://github.com/10-3-pursuit/unit-react/tree/main/group-norms-and-teamwork) and [Working In Groups](https://github.com/10-3-pursuit/unit-react/blob/main/group-norms-and-teamwork/working-in-groups.md) in order to make a list that establishes your group dynamic.
 
 ## Day 1 Deliverables
 Read these instructions carefully independently and as a group. Also, 
