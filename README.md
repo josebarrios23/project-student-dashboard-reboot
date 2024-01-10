@@ -22,6 +22,9 @@ The instructors in your school need a dashboard in order to track the data of ea
 - Netlfiy.com frontend deployment
 - Self learning
 
+## Group Dynamic
+Together you should refer to [Group Norms & Teamwork](https://github.com/10-3-pursuit/unit-react/tree/main/group-norms-and-teamwork) and [Working In Groups](https://github.com/10-3-pursuit/unit-react/blob/main/group-norms-and-teamwork/working-in-groups.md) and make a list that establishes your group dynamic.
+
 ## Day 1 Deliverables
 Read these instructions carefully independently and as a group. Also, 
 take time to read the [Planning Requirements](./project-prep.md) Document where you will establish group norms as well as view other expectations and requirements
@@ -29,7 +32,10 @@ take time to read the [Planning Requirements](./project-prep.md) Document where 
 ### Planning Documents
 Planning documents for this project are due by ***End of Day on the First Day of the Project*** 
 
-Planning Documents and Deliverables include:
+Refer to [Planning and Workflow](https://github.com/10-3-pursuit/unit-react/tree/main/project-workflow) if you need a reminder on how to use Trello and or what Daily Standups are.
+
+**Planning Documents and Deliverables include:**
+   - Group Dynamic List
    - Trello Board - only 3 columns - `To Do`, `Doing`, `Done`
    - Wireframes
    - Github Repo Address
