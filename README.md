@@ -29,8 +29,6 @@ take time to read the [Planning Requirements](./project-prep.md) Document where 
 ### Planning Documents
 Planning documents for this project are due by ***End of Day on the First Day of the Project*** 
 
-You can review [Planning As A Team](https://github.com/10-3-pursuit/unit-react/tree/main/planning-as-a-team) to give you insight.
-
 Planning Documents and Deliverables include:
    - Trello Board - only 3 columns - `To Do`, `Doing`, `Done`
    - Wireframes
