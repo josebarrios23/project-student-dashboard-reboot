@@ -19,7 +19,7 @@ The instructors in your school need a dashboard in order to track the data of ea
 - CSS Grid (optional)
 - Flexbox (optional)
 - Render.com backend deployment
-- Netlfiy.com frontend deployment
+- Netlify.com frontend deployment
 - Self learning
 
 ## Group Dynamic
@@ -90,7 +90,6 @@ You can reference the [Visual Examples](#view) for each view below to get an ide
    - Full Name:
       - Each first letter of the student's name should be uppercase.
       - All of the following letters in the name should be lowercase.
-   - Username
    - Email address, 
    user readable birthday, showing month name, day, year, (e.g. November 7, 2022), and profile photo.
    - **On-track status.** Each student should also be marked as either "On Track" or "Off Track." A student is "On Track" if **ALL** of the following is true about them:
@@ -117,7 +116,7 @@ A User can click on a student card and they will be routed to a detailed view of
    1. **Scores Heading** 
       - A user can see properly formatted percentages for assignments
       - A user can see properly formatted percentages for projects
-      - A user can see properly formatted percentages for assignments
+      - A user can see properly formatted percentages for assessments
 
    1. **Certifications Heading**
    - Includes whether or not the student has received certain certifications. 
