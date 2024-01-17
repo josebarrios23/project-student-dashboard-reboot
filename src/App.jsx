@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      <h1>Student Marlon Dashboard</h1>
+      <h1>Student rbm Dashboard</h1>
     </div>
   );
 }
