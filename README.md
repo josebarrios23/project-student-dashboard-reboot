@@ -1,4 +1,4 @@
-# React Student Dashboard Reboot Project
+# React Student Dashboard Reboot Project (RBM)
 
 <img src="./instruction-assets/computer.png" alt="computer" width="400" height="400">
 
