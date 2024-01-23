@@ -107,7 +107,7 @@ export default function Student() {
                                     <button type="submit">Submit Comment</button>
                                 </form>
                                 <div className="comment-section">
-                                    <h2>Comments</h2>
+                                    <h2>Comments (Count: {comments.length})</h2>
                                     {comments.map((comment, index) => (
                                         <div key={index}>
                                             <strong>{comment.author}</strong>: {comment.commentText}
