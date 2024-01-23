@@ -103,14 +103,15 @@ Note: There's a separate file called `INSTRUCTIONS.md` that includes more detail
 ## Visual Examples
 The following is an example of our application during the process w/these images showing the application completed at different stages of the project. Images highlight different parts of the project to make it a bit visually clearer on what we're tackling.
 WIREFRAMES (DESKTOP)👇🏾
-![Alt text](public/readme-assets/landing-page.png)
-![Alt text](public/readme-assets/student-page.png)
+![DESKTOP student landing page](public/readme-assets/landing-page.png)
+![DESKTOP student profile page](public/readme-assets/student-page.png)
 WIreframes (mobile)👇🏾
-![Alt text](public/readme-assets/mobile-landing.png)
-![Alt text](public/readme-assets/mobile-student.png)
+![mobile student landing page](public/readme-assets/mobile-landing.png)
+![mobile student profile page](public/readme-assets/mobile-student.png)
 
 STUDENTS by class year/season + profile detail (screenshot snippets)👇🏾
-
+![Student Dashboard](public/readme-assets/student-dashboard.png)
+![Student Profile](public/readme-assets/student-profile.png)
 
 ## ABOUT
 Marlon Regis: "Been to all continents of the world, except 2!"
