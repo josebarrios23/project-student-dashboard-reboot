@@ -71,7 +71,7 @@ Fetch API
 The `Fetch API` holds a separate file for each fetch. For the two functions, a fetch grabs all the student data (think: `Student component` file), and another fetch grabs one student based on the ID (think: `StudentCard component` file).
 
 #### Bonus Items
-?
+-Count for Comments: using the `.length` method, we've added this as our stretch goal.
 
 ##### Contributing
 Contributions are welcome! To contribute to our 'Student Dashboard Reboot Project', follow these simple steps below:
@@ -105,14 +105,15 @@ Note: There's a separate file called `INSTRUCTIONS.md` that includes more detail
 
 ## Visual Examples
 The following is an example of our application during the process w/these images showing the application completed at different stages of the project. Images highlight different parts of the project to make it a bit visually clearer on what we're tackling.
-WIREFRAMES (desktop and mobile)
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-![Alt text](image-3.png)
+WIREFRAMES (DESKTOP)
+![Alt text](public/readme-assets/landing-page.png)
+![Alt text](public/readme-assets/student-page.png)
+WIreframes (mobile)
+![Alt text](public/readme-assets/mobile-landing.png)
+![Alt text](public/readme-assets/mobile-student.png)
 
 STUDENTS by CLASS (screenshot snippet)
-![Alt text](image-4.png)
+
 
 ## ABOUT
 Marlon Regis: "Been to all continents of the world, except 2!"
