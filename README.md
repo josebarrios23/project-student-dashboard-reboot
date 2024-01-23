@@ -94,9 +94,6 @@ Held down the repo as the chief navigator and lead, while Jose and Marlon worked
 
 As a group, overall we got along from Day One in tackling this project. There was an automatic feeling of empathy for life being in the way. With full transparency from each of us, if life is lifing, we had an understanding that the next person would fill in, or pick up the slack if necessary, without any complaints. This `Team Norm` link was also helpful: https://docs.google.com/document/d/1bAEjA11b15igvR-FzrSh02REJOCFj03g0Z3INmgU_6Y/edit
 
-## Deployment
-
-
 ### Documentation
 **Set Up Instructions**
 (Frontend):
@@ -105,14 +102,14 @@ Note: There's a separate file called `INSTRUCTIONS.md` that includes more detail
 
 ## Visual Examples
 The following is an example of our application during the process w/these images showing the application completed at different stages of the project. Images highlight different parts of the project to make it a bit visually clearer on what we're tackling.
-WIREFRAMES (DESKTOP)
+WIREFRAMES (DESKTOP)👇🏾
 ![Alt text](public/readme-assets/landing-page.png)
 ![Alt text](public/readme-assets/student-page.png)
-WIreframes (mobile)
+WIreframes (mobile)👇🏾
 ![Alt text](public/readme-assets/mobile-landing.png)
 ![Alt text](public/readme-assets/mobile-student.png)
 
-STUDENTS by CLASS (screenshot snippet)
+STUDENTS by class year/season + profile detail (screenshot snippets)👇🏾
 
 
 ## ABOUT
