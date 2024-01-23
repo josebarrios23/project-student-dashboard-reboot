@@ -71,7 +71,7 @@ Fetch API
 The `Fetch API` holds a separate file for each fetch. For the two functions, a fetch grabs all the student data (think: `Student component` file), and another fetch grabs one student based on the ID (think: `StudentCard component` file).
 
 #### Bonus Items
-?
+-Count for Comments: using the `.length` method, we've added this as our stretch goal.
 
 ##### Contributing
 Contributions are welcome! To contribute to our 'Student Dashboard Reboot Project', follow these simple steps below:
@@ -94,9 +94,6 @@ Held down the repo as the chief navigator and lead, while Jose and Marlon worked
 
 As a group, overall we got along from Day One in tackling this project. There was an automatic feeling of empathy for life being in the way. With full transparency from each of us, if life is lifing, we had an understanding that the next person would fill in, or pick up the slack if necessary, without any complaints. This `Team Norm` link was also helpful: https://docs.google.com/document/d/1bAEjA11b15igvR-FzrSh02REJOCFj03g0Z3INmgU_6Y/edit
 
-## Deployment
-
-
 ### Documentation
 **Set Up Instructions**
 (Frontend):
@@ -105,14 +102,16 @@ Note: There's a separate file called `INSTRUCTIONS.md` that includes more detail
 
 ## Visual Examples
 The following is an example of our application during the process w/these images showing the application completed at different stages of the project. Images highlight different parts of the project to make it a bit visually clearer on what we're tackling.
-WIREFRAMES (desktop and mobile)
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-![Alt text](image-3.png)
+WIREFRAMES (DESKTOP)👇🏾
+![DESKTOP student landing page](public/readme-assets/landing-page.png)
+![DESKTOP student profile page](public/readme-assets/student-page.png)
+WIreframes (mobile)👇🏾
+![mobile student landing page](public/readme-assets/mobile-landing.png)
+![mobile student profile page](public/readme-assets/mobile-student.png)
 
-STUDENTS by CLASS (screenshot snippet)
-![Alt text](image-4.png)
+STUDENTS by class year/season + profile detail (screenshot snippets)👇🏾
+![Student Dashboard](public/readme-assets/student-dashboard.png)
+![Student Profile](public/readme-assets/student-profile.png)
 
 ## ABOUT
 Marlon Regis: "Been to all continents of the world, except 2!"
