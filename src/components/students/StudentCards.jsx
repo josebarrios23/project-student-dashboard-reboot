@@ -36,10 +36,25 @@ export default function StudentCards({ selectedCohort }) {
     return convertedDob
   }
 
+  function addSpaceToCohort(string){
+    let result = '';
+
+    for (let i = 0; i < string.length; i++) {
+       if (!isNaN(string[i]) && string[i] !== ' ') { 
+          result += ' ' + string[i];
+          result += string.slice(i + 1);
+          break;
+      } else {
+          result += string[i];
+      }
+    }
+    return result
+  }
+
   return (
     <div>
       <h2>Total Students: {filteredStudents.length}</h2>
-      {selectedCohort && <p>{selectedCohort}</p>}
+      {selectedCohort && <p>{addSpaceToCohort(selectedCohort)}</p>}
       <div className="students">
         {filteredStudents.map((student) => {
           return (

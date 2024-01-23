@@ -3,19 +3,64 @@ import { getAllStudents } from "../../api/fetch";
 
 export default function Cohorts({ setSelectedCohort }) {
   const [allStudents, setAllStudents] = useState([]);
-  const [cohortCodes, setCohortCodes] = useState([]);
+  const [ascendingCohortCodes, setAscendingCohortCodes] = useState([]);
+  const [descendingCohortCodes, setDescendingCohortCodes] = useState([]);
+  const [isAscending, setIsAscending] = useState(true);
 
   function grabCohortCode() {
-    const uniqueCohortCodes = [];
-
+    const unorderedCohortCodes = [];
     allStudents.forEach((student) => {
       const cohortCode = student.cohort ? student.cohort.cohortCode : null;
-      if (cohortCode && !uniqueCohortCodes.includes(cohortCode)) {
-        uniqueCohortCodes.push(cohortCode);
+      if (cohortCode && !unorderedCohortCodes.includes(cohortCode)) {
+        unorderedCohortCodes.push(cohortCode);
       }
     });
 
-    setCohortCodes(uniqueCohortCodes);
+    const seasonOrder = { Winter: 1, Spring: 2, Summer: 3, Fall: 4 };
+
+    const ascendingConversion = [...unorderedCohortCodes].sort((a, b) => {
+      const yearA = parseInt(a.slice(-4));
+      const yearB = parseInt(b.slice(-4));
+      const seasonA = seasonOrder[a.slice(0, -4)];
+      const seasonB = seasonOrder[b.slice(0, -4)];
+
+      if (yearA !== yearB) {
+        return yearB - yearA;
+      } else {
+        return seasonA - seasonB;
+      }
+    });
+
+    const descendingConversion = [...unorderedCohortCodes].sort((a, b) => {
+      const yearA = parseInt(a.slice(-4));
+      const yearB = parseInt(b.slice(-4));
+      const seasonA = seasonOrder[a.slice(0, -4)];
+      const seasonB = seasonOrder[b.slice(0, -4)];
+    
+      if (yearB !== yearA) {
+        return yearA - yearB;
+      } else {
+        return seasonA - seasonB;
+      }
+    });
+
+    setDescendingCohortCodes(descendingConversion)
+    setAscendingCohortCodes(ascendingConversion);
+  }
+
+  function addSpaceToCohort(string){
+    let result = '';
+
+    for (let i = 0; i < string.length; i++) {
+       if (!isNaN(string[i]) && string[i] !== ' ') { 
+          result += ' ' + string[i];
+          result += string.slice(i + 1);
+          break;
+      } else {
+          result += string[i];
+      }
+    }
+    return result
   }
 
   useEffect(() => {
@@ -28,17 +73,24 @@ export default function Cohorts({ setSelectedCohort }) {
     grabCohortCode();
   }, [allStudents]);
 
+  const toggleCohortOrder = () => {
+    setIsAscending(!isAscending);
+  };
+
   return (
     <div>
       <h1>Choose A Class By Start Date</h1>
+      <button onClick={toggleCohortOrder}>
+        {isAscending ? "Sort Descending By Year" : "Sort Ascending By Year"}
+      </button>
       <br />
       <div onClick={() => setSelectedCohort(null)}>
         All Students
         <hr />
       </div>
-      {cohortCodes.map((code) => (
+      {(isAscending ? ascendingCohortCodes : descendingCohortCodes).map((code) => (
         <div key={code} onClick={() => setSelectedCohort(code)}>
-          {code}
+          {addSpaceToCohort(code)}
           <hr />
         </div>
       ))}

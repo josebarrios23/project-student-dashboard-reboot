@@ -1,10 +1,8 @@
-# React Student Dashboard Reboot Project (RBM)
+*React Student Dashboard Reboot Project (RBM)*
 
 <img src="./instruction-assets/computer.png" alt="computer" width="400" height="400">
 
-The instructors in your school need a dashboard in order to track the data of each student. Many cohorts of students are represented in the data so you will have your work cut out for you displaying each cohort by Season and Year. You and your team will create an SPA (Single Page Application) using ReactJS to create this Dashboard.
-
-## Project Tools & Skills:
+Welcome. Our "RBM" team -- Regis, Barrios, McLellan -- have created a Single Page Application using ReactJS to help (the needy!) instructors in our school gain access to this 'React Student Dashboard Reboot Project'. This Dashboard tracks the data associated with each student, displayed by Season and Year, either in ascending or descending order. In our implementation of this Dashboard, we teamed-up and learned to use the following **Project Tools & Skills** below:
 - React Hooks
 - React Router 6.2.1
 - Forms
@@ -15,186 +13,114 @@ The instructors in your school need a dashboard in order to track the data of ea
 - Data Manipulation & Parsing
 - Helper Functions
 - HTML, CSS, JS
-- Bootstrap (optional)
 - CSS Grid (optional)
 - Flexbox (optional)
 - Render.com backend deployment
 - Netlify.com frontend deployment
 - Self learning
 
-## Group Dynamic
-As a group you should reference [Group Norms & Teamwork](https://github.com/10-3-pursuit/unit-react/tree/main/group-norms-and-teamwork) and [Working In Groups](https://github.com/10-3-pursuit/unit-react/blob/main/group-norms-and-teamwork/working-in-groups.md) in order to make a list that establishes your group dynamic.
+# ~TABLE OF CONTENTS~  
+- Features
+- Installation
+- Components
+- Bonus Items
+- Contributing
 
-## Day 1 Deliverables
-Read these instructions carefully independently and as a group. Also, 
-take time to read the [Planning Requirements](./project-prep.md) Document where you will establish group norms as well as view other expectations and requirements
+# Features
+-Landing page displays brief prelims on students with their name, image, email address/username, and date of birth.
+-Functionality by clicking each student, expanding to their full details.
+-A chronological class table of different start dates by season and year.
+-Form, we used for the notes section in `Student.jsx`. It has two boxes that have to be filled out, with a `submit` button underneath.
 
-### Planning Documents
-Planning documents for this project are due by ***End of Day on the First Day of the Project*** 
+## Installation
+To run the app locally, follow these steps:
+1st..
+Clone the repository: git clone https://github.com/hjmclellan/project-student-dashboard-reboot
 
-Refer to [Planning and Workflow](https://github.com/10-3-pursuit/unit-react/tree/main/project-workflow) if you need a reminder on how to use Trello and or what Daily Standups are.
+2nd...
+Navigate to the project directory:
+cd project-student-dashboard-reboot
 
-**Planning Documents and Deliverables include:**
-   - Name of Your Team - (we will make team channels)
-   - Group Dynamic List
-   - Trello Board - only 3 columns - `To Do`, `Doing`, `Done`
-   - Wireframes
-   - Github Repo Address
-        
-**Submit relevant links to JD & Dan in one `Slack` thread**
+3rd...
+Install dependencies: npm install
+Start the development server: npm start
 
-## Project Setup
+### Components
+Cohort Component
+The `Cohort component` is the aside, displaying a table-like breakdown of categories according to the class start date by the season, year and including ALL students. It also has the flexibility of being in ascending or descending order:
+All Students | All Students
+Winter 2025  | Fall 2026
+Spring 2025  | Summer 2026
+Summer 2025  | Spring 2026
+Fall 2025    | Winter 2026
+Winter 2026  | Fall 2025
+Spring 2026  | Summer 2025
+Summer 2026  | Spring 2025
+Fall 2026    | Winter 2025
 
-- **Backend API**: Use [react-student-dashboard-reboot-server](https://github.com/10-3-pursuit/project-student-dashboard-reboot-server).
-- **Frontend Repository**: Your team lead or someone on your team should`Fork` and `clone` this *React Student Dashboard Reboot Project* repo. 
+StudentCard Component
+The `StudentCard component` is the card component, displaying each of all the student's profile for their: name, user name (email address) and date of birth.
 
-## Completion Requirements
+Student Component
+The `Student component` -- not to mixed up with the above 'StudentCard' component, displays every single detail available per student and is a breakdown of these details once the user clicks on each student profile. It includes all the info from the 'StudentCard' in addition to Codewars totals, Score percentages and certification links for each student's Resume, LinkedIn and Github profiles.
 
-There are a minimum of 5 Views for this SPA (Single Page Application), as well as other requirements for this project. For views, complete as many views as you can in the given order. Points will be based on completion, code quality, appearance and team work dynamic. Each person must contribute to the planning and codebase for the app.
+Header Component
+The `Header component` is the first interaction one should come across in the landing page, it's the simplest component, and will simply be our header display title.
 
-## CSS
+Fetch API
+The `Fetch API` holds a separate file for each fetch. For the two functions, a fetch grabs all the student data (think: `Student component` file), and another fetch grabs one student based on the ID (think: `StudentCard component` file).
 
-Responsive CSS is expected. You may use Bootstrap, Grid, and/or Flex to create your layout and design.
+#### Bonus Items
+?
+
+##### Contributing
+Contributions are welcome! To contribute to our 'Student Dashboard Reboot Project', follow these simple steps below:
+
+**Fork the repository**
+Create a new branch: git checkout -b 'feature/new-feature'
+Commit your changes: git commit -am "I added new to your project..."
+Push to the branch: git push origin 'feature/new-feature'
+Submit a pull request.
+
+## RBM Group Dynamic
+Marlon *Regis* - marlon.regis@pursuit.org
+As a coordinator and communications liason used efficiently for building out this project in the 3-person group, he ensured daily that steps and stages of some of the coding process moved along in chronological order; provided third-party tools and libraries that facilitated easy workflow via `wireframe.cc`, `bootstrap` and ?; provided daily organizational updates in `Trello Board`; optimized visuals via ??? used in CSS; and added code to keep building the on this Student Dashboard project in the `App.jsx` file and `Footer.jsx` component file.
+
+Jose *Barrios* - josebarrios@pursuit.org
+A role of wearing many hats, Jose's handling of tasks ranged from being the main navigator behind designing our four `wireframes` -- 2 for the web and another 2 for mobile, and as the navigator with Harleigh and Marlon's 'live' input along the design, we finished that task on day one; to tackling the initial CSS to see what we're working with so that we also had a visual in the beginning, and continued to work on the `index.css` file throughout until the end; building the Aside (`Cohort`), `Header`, `Student` and Card (`StudentCard`) components, as well as the `fetch.js` API link; and the majority of the functionality and coding, including the `index.jsx` file, fell in Jose's hands (who also came up with the concept for naming our group, *RBM*).
+
+Harleigh *McLellan* - harleighmclellan@pursuit.org
+Held down the repo as the chief navigator and lead, while Jose and Marlon worked through other various branches. Unfortunately, Harleigh fell very ill soon after the beginning of working on the `Router` options during our project, so her overall contribution has been understandably minimal to this point, but we wish her a healthy recovery.
+
+As a group, overall we got along from Day One in tackling this project. There was an automatic feeling of empathy for life being in the way. With full transparency from each of us, if life is lifing, we had an understanding that the next person would fill in, or pick up the slack if necessary, without any complaints. This `Team Norm` link was also helpful: https://docs.google.com/document/d/1bAEjA11b15igvR-FzrSh02REJOCFj03g0Z3INmgU_6Y/edit
 
 ## Deployment
 
-   - You will deploy your front end application to Netlify.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/netlify-deployment.md)
-
-   - You will deploy your backend server to Render.com - [DEMO VIDEOS](https://github.com/10-3-pursuit/10-3-resources/blob/main/render-deployment.md)
-
 
 ### Documentation
+**Set Up Instructions**
+(Frontend):
+(Backend):
+Note: There's a separate file called `INSTRUCTIONS.md` that includes more detailed project instructions on our set-up.
 
-Include `readme.md` with setup instructions for front and back ends of your application. In order to create your readme...
-   - create a file called `instructions.md`
-   - copy and paste these project instructions into that file
-   - create your instructions in the actual `readme.md` file
+## Visual Examples
+The following is an example of our application during the process w/these images showing the application completed at different stages of the project. Images highlight different parts of the project to make it a bit visually clearer on what we're tackling.
+WIREFRAMES (desktop and mobile)
+![Alt text](image.png)
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
 
-### ReactJS View & Feature Specifications
+STUDENTS by CLASS (screenshot snippet)
+![Alt text](image-4.png)
 
-You can reference the [Visual Examples](#view) for each view below to get an idea of what is required.
+## ABOUT
+Marlon Regis: "Been to all continents of the world, except 2!"
+(https://github.com/MarlonPelau)
+Jose Barrios: "I've been studying astronomy since I was 7!"
+(https://github.com/josebarrios23)
+Harleigh McLellan: "I really wanna start making video games.."
+(https://github.com/hjmclellan)
 
-#### Part 1: Static Views
-
-1. A Header should show the title of Student Dashboard in an `h1` tag.
-
-1. An `About` link should be on the application. This link will lead the user to a view that displays, at minumum, each team member's name, Github, and a fun fact
-
-#### Part 2: Index View
-
-1. A **Student list count** should be included either in the `Aside` or the `Main` portion of the application. It displays the number of students in the displayed cohort
-
-1. Your SPA should always show a `Header` with title, an `Aside` that will display a list of seasonal cohorts, and a `Main` section where student data is displayed.
-
-1. **Student list.** The `Home` page should show a list of all students. Each student should be shown with the following details listed:
-   - Full Name:
-      - Each first letter of the student's name should be uppercase.
-      - All of the following letters in the name should be lowercase.
-   - Email address, 
-   user readable birthday, showing month name, day, year, (e.g. November 7, 2022), and profile photo.
-   - **On-track status.** Each student should also be marked as either "On Track" or "Off Track." A student is "On Track" if **ALL** of the following is true about them:
-      1.  The student has a resume certification (e.g. `certifications.resume` is `true`).
-      1.  The student has a LinkedIn certification (e.g. `certifications.linkedin` is `true`).
-      1.  The student has a GitHub certification (e.g. `certifications.github` is `true`).
-      1.  The student has a mock interview certification (e.g. `certifications.mockInterview` is `true`).
-      1.  The student has a current CodeWars score that is over 850.
-
-#### Part 3: Show View
-
-**Additional Student Details Section** 
-
-A User can click on a student card and they will be routed to a detailed view of the single student. This feature should include the following detailed information which you will pull and manipulate from the data:
-
-   1. A user still sees all of the original information that was displayed in the Index Card for the student. Details listed above.
-   
-   1. **Codewars Stats Heading**
-      - A user can see the current total
-      - A user can see last week's total
-      - A user can see the goal total
-      - A user can see the `Percent of Goal Achieved` using properly formatted percentages
-
-   1. **Scores Heading** 
-      - A user can see properly formatted percentages for assignments
-      - A user can see properly formatted percentages for projects
-      - A user can see properly formatted percentages for assessments
-
-   1. **Certifications Heading**
-   - Includes whether or not the student has received certain certifications. 
-   - Instead of showing "true" or "false" for certifications, show an emoji or icon depending on the certification status.
-
-#### PART 4: 1-on-1 Notes Section - Form
-   Create a section on the single student details view that contains information about a student's 1-on-1 with an instructor. To complete this feature, the following should be true:
-   - The section should include a title. (e.g. "1-on-1 Notes".)
-   - The section should include a form which includes:
-      - input for instructor's name
-      - input for instructor's note
-      - a label for each input for accessibility
-      - a submit button
-   -  The form can be filled out and submitted. 
-   - On submit, the inputs are cleared.
-   - The section should show a list of all notes that have been added.
-   - The notes can be saved locally in the component and do not need to persist when refreshing the application.
-
-#### PART 5: Aside View - List of Cohorts
-1. The **Aside List** should continuously be shown in the page view
-1. **Unique list of cohorts.** The Aside should include a unique list of cohorts on the page. This list of cohorts should be human-readable (e.g. "Winter 2026" instead of "Winter2026") and ordered by both year and season combined.
-1. **Clickable cohorts.** When one of the cohorts is clicked from the cohort list, the students shown on the page should change so that only those students in the cohort are displayed.
-1. **Cohort title change.** When one of the cohorts is clicked from the cohort list, a heading on the page should change to display what cohort is being shown. (i.e. 'All Students' title should change to 'Winter 2025' title when that title is clicked)
-1. The **Student list count** should also update to reflect the number of students in the chosen cohort.
-1. Create a button and the functionality to sort the Aside View List 'Ascending' & 'Descending'
-
-
-#### PART 6: Stretch Goals
-
-This section of the project measures your group's ability to go above and beyond in creating your project. To score points in this section, you should incorporate a feature, technology, or skill not explicitly required by the project instructions.
-
-When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
-
-- Create a button in the single student details view where you can `Unenroll` a student (`DELETE`). Add functionality to delete that student from your backend server.
-- Filter students based on a category of your choosing (i.e. "LinkedIn Certification", "Codewars Score" or even harder "On Track Status")
-- Create search functionality to search for students based on first or last name.
-- Include a count for the number of notes added to each student, which is updated when a new note is added.
-- Allow for the user to click a button and the view of students changes to be just a list of names, or just a grid of profile images.
-- Implement a "dark mode" version of the website, which changes the CSS on click.
-- Add color-coding or segmentation to the cohort list, so that each year is visually distinct from one another.
-- *(medium difficulty)* save notes to localStorage and have them persist on refresh.
-- *(challenging)* Create a form that allows you to update a student's details. Use `PATCH` to update the username, name, cohort or date of birth.
-- *(very challenging)* Use `PATCH` to update the notes key in the data when adding a note for the student. In the server data, each note has a `comment` key and a  `commenter` key. (super challenging, self research)
-
-Points will be allocated in this section at the discretion of the instructor.
-
-GOOD LUCK!
-
-## <a name="view">Visual Examples</a> 
-
-The following is an example of the application. These images show the application completed at different stages of the project and highlights different parts of the project to make it clear what is being discussed. While proper CSS is expected, you are not required to replicate this layout and look. 
-
-### Landing page
-
-![landing page - All Students](./instruction-assets/index.png)
-
-### Cohort list by Season and Year
-
-#### Summer 2025 Index
-![summer interactive cohort list](./instruction-assets/index-chosen-by-summer.png)
-
-#### Winter 2025 Index
-![winter interactive cohort list](./instruction-assets/index-chosen-by-winter.png)
-
-
-### Student Details Show Section
-
-#### Student Details - Aside view and Header view always be viewable. This is only the Show view
-![student details](./instruction-assets/show.png)
-
-
-#### Student Details with Notes - Aside view and Header view should always be viewable. This is only the Show view
-![show details with comments](./instruction-assets/show-with-comments.png)
-
-### Cohort Lists
-
-#### Sorted Ascending
-![sorted ascending](./instruction-assets/list-sorted-ascending.png)
-
-#### Sorted Descending
-![sorted descending](./instruction-assets/list-sorted-descending.png)
+**Frontend deployment - our netlify.com link**:
+**Backend deployment - our render.com link**:
