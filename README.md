@@ -98,7 +98,6 @@ As a group, overall we got along from Day One in tackling this project. There wa
 **Set Up Instructions**
 (Frontend):
 (Backend):
-Note: There's a separate file called `INSTRUCTIONS.md` that includes more detailed project instructions on our set-up.
 
 ## Visual Examples
 The following is an example of our application during the process w/these images showing the application completed at different stages of the project. Images highlight different parts of the project to make it a bit visually clearer on what we're tackling.
