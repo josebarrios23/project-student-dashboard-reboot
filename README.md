@@ -163,4 +163,6 @@ Harleigh McLellan: "I really wanna start making video games.."
 (https://github.com/hjmclellan)
 
 **Frontend deployment - our netlify.com link**:
+https://main--coruscating-sawine-223c83.netlify.app/
 **Backend deployment - our render.com link**:
+https://student-dashboard-project-server.onrender.com
