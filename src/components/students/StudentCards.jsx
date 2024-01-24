@@ -8,12 +8,19 @@ import { addSpaceToCohort } from "../../../helpers";
 
 export default function StudentCards({ selectedCohort }) {
   const [allStudents, setAllStudents] = useState([]);
+  const [loadingError, setLoadingError] = useState(false);
 
   useEffect(() => {
-    getAllStudents().then((data) => {
-      setAllStudents(data);
-    });
-  }, []);
+    getAllStudents()
+        .then((data) => {
+            setAllStudents(data);
+            setLoadingError(false);
+        })
+        .catch((error) => {
+            console.error(error);
+            setLoadingError(true);
+        });
+}, []);
 
   const filteredStudents = selectedCohort 
     ? allStudents.filter(student => student.cohort && student.cohort.cohortCode === selectedCohort)

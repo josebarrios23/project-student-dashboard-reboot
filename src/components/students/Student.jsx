@@ -9,6 +9,8 @@ export default function Student() {
     const [singleStudent, setSingleStudent] = useState(null);
     const [comments, setComments] = useState([]);
     const { id } = useParams();
+    const [loadingError, setLoadingError] = useState(false);
+
 
     function handleSubmit(event) {
         event.preventDefault();
@@ -22,9 +24,15 @@ export default function Student() {
     }
 
     useEffect(() => {
-        getOneStudent(id).then((data) => {
-          setSingleStudent(data);
-        });
+        getOneStudent(id)
+            .then((data) => {
+                setSingleStudent(data);
+                setLoadingError(false);
+            })
+            .catch((error) => {
+                console.error(error);
+                setLoadingError(true);
+            });
     }, [id]);
 
     return (

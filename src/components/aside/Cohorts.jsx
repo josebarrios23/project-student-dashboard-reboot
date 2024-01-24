@@ -7,6 +7,7 @@ export default function Cohorts({ setSelectedCohort }) {
   const [ascendingCohortCodes, setAscendingCohortCodes] = useState([]);
   const [descendingCohortCodes, setDescendingCohortCodes] = useState([]);
   const [isAscending, setIsAscending] = useState(true);
+  const [loadingError, setLoadingError] = useState(false);
 
   const compareCohortCodes = (a, b, isAscending) => {
     const seasonOrder = { Winter: 1, Spring: 2, Summer: 3, Fall: 4 };
@@ -39,10 +40,16 @@ export default function Cohorts({ setSelectedCohort }) {
   }
 
   useEffect(() => {
-    getAllStudents().then((data) => {
-      setAllStudents(data);
-    });
-  }, []);
+    getAllStudents()
+        .then((data) => {
+            setAllStudents(data);
+            setLoadingError(false);
+        })
+        .catch((error) => {
+            console.error(error);
+            setLoadingError(true);
+        });
+}, []);
 
   useEffect(() => {
     grabCohortCode();
