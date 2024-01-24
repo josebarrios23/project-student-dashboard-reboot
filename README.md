@@ -94,10 +94,54 @@ Held down the repo as the chief navigator and lead, while Jose and Marlon worked
 
 As a group, overall we got along from Day One in tackling this project. There was an automatic feeling of empathy for life being in the way. With full transparency from each of us, if life is lifing, we had an understanding that the next person would fill in, or pick up the slack if necessary, without any complaints. This `Team Norm` link was also helpful: https://docs.google.com/document/d/1bAEjA11b15igvR-FzrSh02REJOCFj03g0Z3INmgU_6Y/edit
 
-### Documentation
 **Set Up Instructions**
-(Frontend):
-(Backend):
+
+## Deploying Frontend on Netlify
+
+### Step 1: Set Up Netlify
+- Go to [Netlify](https://www.netlify.com/) and sign in or sign up.
+- Click on “New site from Git”.
+
+### Step 2: Connect to Git Repository
+- Choose your Git provider (GitHub, GitLab, Bitbucket) and select your repository.
+- Allow Netlify to access your repo.
+
+### Step 3: Configure Your Site
+- Set the build command as `npm run build`.
+- Set the publish directory to `build/`.
+- Click on “Deploy site”.
+
+### Step 4: Domain and Launch
+- Netlify provides a generated URL post-deployment.
+- Optionally, set up a custom domain.
+
+## Deploying Backend on Render
+
+Render is useful for backend deployments. Here's how to deploy your backend on Render.
+
+### Step 1: Prepare Your Backend Code
+- Ensure your backend code is in a Git repository.
+- Include a `package.json` file with the correct start script.
+
+### Step 2: Set Up Render
+- Visit [Render](https://render.com/) and log in or register.
+- Select “New Service”.
+
+### Step 3: Connect to Your Repository
+- Pick the repository with your backend code.
+- Check if Render auto-detects the settings correctly.
+
+### Step 4: Configure Service
+- Choose the appropriate environment (Node, Python, etc.).
+- Set any required environment variables under “Environment”.
+
+### Step 5: Deploy Your Backend
+- Click “Create Service”.
+- Render will deploy your backend and provide a URL.
+
+## Post-Deployment
+
+After deploying both frontend and backend, ensure to test your application thoroughly. Update your frontend’s API endpoints to point to the new backend service URL from Render if necessary.
 
 ## Visual Examples
 The following is an example of our application during the process w/these images showing the application completed at different stages of the project. Images highlight different parts of the project to make it a bit visually clearer on what we're tackling.
