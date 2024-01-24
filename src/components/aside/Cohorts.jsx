@@ -80,16 +80,16 @@ export default function Cohorts({ setSelectedCohort }) {
   return (
     <div>
       <h1>Choose A Class By Start Date</h1>
-      <button onClick={toggleCohortOrder}>
+      <button className="toggle-button cohort-season" onClick={toggleCohortOrder}>
         {isAscending ? "Sort Descending By Year" : "Sort Ascending By Year"}
       </button>
       <br />
-      <div onClick={() => setSelectedCohort(null)}>
+      <div className="cohort-season" onClick={() => setSelectedCohort(null)}>
         All Students
         <hr />
       </div>
       {(isAscending ? ascendingCohortCodes : descendingCohortCodes).map((code) => (
-        <div key={code} onClick={() => setSelectedCohort(code)}>
+        <div className="cohort-season" key={code} onClick={() => setSelectedCohort(code)}>
           {addSpaceToCohort(code)}
           <hr />
         </div>

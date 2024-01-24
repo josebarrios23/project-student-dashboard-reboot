@@ -1,3 +1,7 @@
+html {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 body {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -10,12 +14,20 @@ header {
     background-color: #f0f0f0;
     padding: 1rem;
     text-align: center;
+    text-decoration: none;
+}
+
+.home-link {
+  margin: 0 auto;
+  text-decoration: none;
+  color: green;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-row: 2;
+    border: 1px solid black;
 }
 
 aside {
@@ -24,9 +36,9 @@ aside {
     background-color: #e9e9e9;
     overflow-y: auto;
     text-align: center;
+    border: 1px solid black;
 }
 
-/* Student Cards layout */
 .students {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -40,29 +52,116 @@ aside {
     border: 1px solid #ddd;
     padding: 1rem;
     text-align: center;
+    background-color: rgb(214, 241, 214);
 }
 
-/* Student Detail layout */
+.card-img {
+  width: 200px;
+}
+
+.card-link{
+  text-decoration: none;
+  color: black;
+}
+
+.selected-cohort {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.selected-cohort, 
+.total-students {
+  padding-left: 15px;
+}
+
+.toggle-button {
+  border-radius: 10px;
+  background-color: lightgreen;
+}
+
 .student-detail {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
 }
 
 .student-detail > * {
     margin-bottom: 1rem;
 }
 
-/* Cohorts styling */
+.student-stats {
+  display: flex;
+  justify-content: center;
+}
+
+.student-track {
+  text-align: center;
+  color: blue;
+}
+
+.codewars, .scores, .certifications {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .cohorts {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cohort-season {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cohort-season:hover {
+  color: green;
+}
+
+.card-link:hover{
+  color: green;
 }
 
 .cohorts > div {
-    cursor: pointer;
-    padding: 0.5rem;
-    border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.about-us {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.about-link {
+  text-decoration: none;
+  color: green;
+}
+
+.notes {
+  text-align: center;
+  color: green;
+  background-color: darkgray;
+  max-height: 190px;
+  overflow-y: auto;
+}
+
+.on-track {
+  color: blue;
+}
+
+.dev-links {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 900px;
+}
+
+.dev-section {
+  padding-left:250px;
 }

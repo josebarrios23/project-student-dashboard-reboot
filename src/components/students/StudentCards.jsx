@@ -53,19 +53,19 @@ export default function StudentCards({ selectedCohort }) {
 
   return (
     <div>
-      <h2>Total Students: {filteredStudents.length}</h2>
-      {selectedCohort && <p>{addSpaceToCohort(selectedCohort)}</p>}
+      <h2 className="total-students">Total Students: {filteredStudents.length}</h2>
+      {selectedCohort && <p className="selected-cohort">{addSpaceToCohort(selectedCohort)}</p>}
       <div className="students">
         {filteredStudents.map((student) => {
           return (
             <div className="card">
-                <Link to={`/${student.id}`} key={student.id}>
-                <img src={student.profilePhoto} alt="Student profile" />
+                <Link className="card-link" to={`/${student.id}`} key={student.id}>
+                <img className="card-img" src={student.profilePhoto} alt="Student profile" />
                 <div>{formatStudentNames(student)}</div>
                 <div>{student.username}</div>
                 <div>DOB: {convertBirthday(student.dob)}</div>
                 <br />
-                <div>{onTrackToGraduate(student)}</div>
+                <div className="on-track">{onTrackToGraduate(student)}</div>
             </Link>
               </div>
           );

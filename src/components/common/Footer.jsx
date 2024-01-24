@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <footer>
-            <Link to={`/about`}>
-                <h2>About Us</h2>
+            <Link className="about-link" to={`/about`}>
+                <h2 className="about-us">About Us</h2>
             </Link>
         </footer>
     )
