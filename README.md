@@ -107,8 +107,6 @@ As a group, overall we got along from Day One in tackling this project. There wa
 - Allow Netlify to access your repo.
 
 ### Step 3: Configure Your Site
-- Set the build command as `npm run build`.
-- Set the publish directory to `build/`.
 - Click on “Deploy site”.
 
 ### Step 4: Domain and Launch
