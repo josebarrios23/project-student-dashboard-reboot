@@ -35,7 +35,7 @@ Welcome. Our "RBM" team -- Regis, Barrios, McLellan -- have created a Single Pag
 ## Installation
 To run the app locally, follow these steps:
 1st..
-Clone the repository: git clone https://github.com/hjmclellan/project-student-dashboard-reboot
+Clone the repository: git clone https://github.com/josebarrios23/project-student-dashboard-reboot
 
 2nd...
 Navigate to the project directory:
@@ -84,7 +84,7 @@ Submit a pull request.
 
 ## RBM Group Dynamic
 Marlon *Regis* - marlon.regis@pursuit.org
-As a coordinator and communications liason used efficiently for building out this project in the 3-person group, he ensured daily that steps and stages of some of the coding process moved along in chronological order; provided third-party tools and libraries that facilitated easy workflow via `wireframe.cc`, `bootstrap` and ?; provided daily organizational updates in `Trello Board`; optimized visuals via ??? used in CSS; and added code to keep building the on this Student Dashboard project in the `App.jsx` file and `Footer.jsx` component file.
+As a coordinator and communications liason used efficiently for building out this project in the 3-person group, he ensured daily that steps and stages of some of the coding process moved along in chronological order; provided third-party tools and libraries that facilitated easy workflow via `wireframe.cc`, provided daily organizational updates in `Trello Board`; and added code to keep building the on this Student Dashboard project in the `App.jsx` file and `Footer.jsx` component file.
 
 Jose *Barrios* - josebarrios@pursuit.org
 A role of wearing many hats, Jose's handling of tasks ranged from being the main navigator behind designing our four `wireframes` -- 2 for the web and another 2 for mobile, and as the navigator with Harleigh and Marlon's 'live' input along the design, we finished that task on day one; to tackling the initial CSS to see what we're working with so that we also had a visual in the beginning, and continued to work on the `index.css` file throughout until the end; building the Aside (`Cohort`), `Header`, `Student` and Card (`StudentCard`) components, as well as the `fetch.js` API link; and the majority of the functionality and coding, including the `index.jsx` file, fell in Jose's hands (who also came up with the concept for naming our group, *RBM*).

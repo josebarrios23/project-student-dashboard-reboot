@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function Header() {
 
 return (
-   <Link to={`/`}>
+   <Link className="home-link" to={`/`}>
      <header>
-       <h1>Student Dashboard</h1>
+       <h1 className="home-link">Student Dashboard</h1>
      </header>
    </Link>
   )

@@ -46,7 +46,7 @@ export default function Student() {
     }, [id]);
 
     return (
-        <div key={id}>
+        <div className="card-container" key={id}>
             {singleStudent && (
                 <>
                     <div className="card">
@@ -56,8 +56,9 @@ export default function Student() {
                         <div>DOB: {convertBirthday(singleStudent.dob)}</div>
                     </div>
                     <div>
+                    <section className="student-stats">
                         {singleStudent.codewars && singleStudent.codewars.current && (
-                            <div>
+                            <div className="codewars">
                                 <h2>Codewars</h2>
                                 Current Total: {singleStudent.codewars.current.total}
                                 <br />
@@ -69,7 +70,7 @@ export default function Student() {
                             </div>
                         )}
                         {singleStudent.cohort && singleStudent.cohort.scores && (
-                            <div>
+                            <div className="scores">
                                 <h2>Scores</h2>
                                 Assignments: {singleStudent.cohort.scores.assignments * 100}%
                                 <br />
@@ -78,7 +79,7 @@ export default function Student() {
                                 Assessments: {singleStudent.cohort.scores.assessments * 100}%
                             </div>
                         )}
-                        <div>
+                        <div className="certifications">
                             <h2>Certifications</h2>
                             Resume: {singleStudent.certifications.resume ? '✅' : '❌'}
                             <br />
@@ -88,7 +89,8 @@ export default function Student() {
                             <br />
                             Mock Interview: {singleStudent.certifications.mockInterview ? '✅' : '❌'}
                         </div>
-                        <h1>{onTrackToGraduate(singleStudent)}</h1>
+                        </section>
+                        <h1 className="student-track">{onTrackToGraduate(singleStudent)}</h1>
                         <div className="notes">
                             <h2>1:1 Notes</h2>
                             <div className="form">
