@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getAllStudents } from "../../api/fetch";
+import { addSpaceToCohort } from "../../../helpers";
 
 export default function Cohorts({ setSelectedCohort }) {
   const [allStudents, setAllStudents] = useState([]);
@@ -46,21 +47,6 @@ export default function Cohorts({ setSelectedCohort }) {
 
     setDescendingCohortCodes(descendingConversion)
     setAscendingCohortCodes(ascendingConversion);
-  }
-
-  function addSpaceToCohort(string){
-    let result = '';
-
-    for (let i = 0; i < string.length; i++) {
-       if (!isNaN(string[i]) && string[i] !== ' ') { 
-          result += ' ' + string[i];
-          result += string.slice(i + 1);
-          break;
-      } else {
-          result += string[i];
-      }
-    }
-    return result
   }
 
   useEffect(() => {
