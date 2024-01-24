@@ -1,32 +1,14 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getOneStudent } from "../../api/fetch";
+import { formatStudentNames } from "../../../helpers";
+import { onTrackToGraduate } from "../../../helpers";
+import { convertBirthday } from "../../../helpers";
 
 export default function Student() {
     const [singleStudent, setSingleStudent] = useState(null);
     const [comments, setComments] = useState([]);
     const { id } = useParams();
-
-    function formatStudentNames(student) {
-        const { preferredName, middleName, surname } = student.names;
-        return `${preferredName} ${middleName} ${surname}`;
-    }
-
-    function onTrackToGraduate(student) {
-        if (student.codewars.current.total > 850 &&
-            student.certifications.resume &&
-            student.certifications.linkedin &&
-            student.certifications.github &&
-            student.certifications.mockInterview) {
-            return "On Track To Graduate";
-        }
-    }
-
-    function convertBirthday(birthday){
-        const date = new Date(birthday)
-        const convertedDob = date.toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'})
-        return convertedDob
-    }
 
     function handleSubmit(event) {
         event.preventDefault();
