@@ -8,6 +8,20 @@ export default function Cohorts({ setSelectedCohort }) {
   const [descendingCohortCodes, setDescendingCohortCodes] = useState([]);
   const [isAscending, setIsAscending] = useState(true);
 
+  const compareCohortCodes = (a, b, isAscending) => {
+    const seasonOrder = { Winter: 1, Spring: 2, Summer: 3, Fall: 4 };
+    const yearA = parseInt(a.slice(-4));
+    const yearB = parseInt(b.slice(-4));
+    const seasonA = seasonOrder[a.slice(0, -4)];
+    const seasonB = seasonOrder[b.slice(0, -4)];
+
+    if (yearA !== yearB) {
+      return isAscending ? yearB - yearA : yearA - yearB;
+    } else {
+      return seasonA - seasonB;
+    }
+  };
+
   function grabCohortCode() {
     const unorderedCohortCodes = [];
     allStudents.forEach((student) => {
@@ -17,36 +31,11 @@ export default function Cohorts({ setSelectedCohort }) {
       }
     });
 
-    const seasonOrder = { Winter: 1, Spring: 2, Summer: 3, Fall: 4 };
+    const ascendingConversion = [...unorderedCohortCodes].sort((a, b) => compareCohortCodes(a, b, true));
+    const descendingConversion = [...unorderedCohortCodes].sort((a, b) => compareCohortCodes(a, b, false));
 
-    const ascendingConversion = [...unorderedCohortCodes].sort((a, b) => {
-      const yearA = parseInt(a.slice(-4));
-      const yearB = parseInt(b.slice(-4));
-      const seasonA = seasonOrder[a.slice(0, -4)];
-      const seasonB = seasonOrder[b.slice(0, -4)];
-
-      if (yearA !== yearB) {
-        return yearB - yearA;
-      } else {
-        return seasonA - seasonB;
-      }
-    });
-
-    const descendingConversion = [...unorderedCohortCodes].sort((a, b) => {
-      const yearA = parseInt(a.slice(-4));
-      const yearB = parseInt(b.slice(-4));
-      const seasonA = seasonOrder[a.slice(0, -4)];
-      const seasonB = seasonOrder[b.slice(0, -4)];
-    
-      if (yearB !== yearA) {
-        return yearA - yearB;
-      } else {
-        return seasonA - seasonB;
-      }
-    });
-
-    setDescendingCohortCodes(descendingConversion)
     setAscendingCohortCodes(ascendingConversion);
+    setDescendingCohortCodes(descendingConversion);
   }
 
   useEffect(() => {
@@ -67,7 +56,7 @@ export default function Cohorts({ setSelectedCohort }) {
     <div>
       <h1>Choose A Class By Start Date</h1>
       <button className="toggle-button cohort-season" onClick={toggleCohortOrder}>
-        {isAscending ? "Sort Descending By Year" : "Sort Ascending By Year"}
+        {isAscending ? "Sort Ascending By Year" : "Sort Descending By Year"}
       </button>
       <br />
       <div className="cohort-season" onClick={() => setSelectedCohort(null)}>
